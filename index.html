@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hugo Gomes | Portfólio Dev</title>
+    <link rel="icon" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Hugo Gomes</span></a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#conhecimento">Conhecimento</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visite-btn" onclick="window.open('https://github.com/HGomesdev', '_blank')">Visite
+            Github</button>
+    </header>
+
+    <main>
+        <section id="sobre" class="sobre">
+            <div class="sobre-container">
+                <div class="sobre-img-container">
+                    <img src="pefil.png" alt="Foto de perfil de Hugo Gomes" class="sobre-perfil-img">
+                </div>
+
+                <div class="info-box">
+                    <div class="text">
+                        <h3>Oi, Eu sou</h3>
+                        <h1>Hugo Gomes</h1>
+                        <span>Desenvolvedor Front-End Júnior</span>
+                    </div>
+
+                    <div class="btn-group">
+                        <a href="cv_hugo_gomes_2026.pdf" class="btn" download>Download CV</a>
+                        <a href="https://wa.me/55018981427594" target="_blank" class="btn">WhatsApp</a>
+                    </div>
+
+                    <div class="socials">
+                        <a href="https://github.com/HGomesdev" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hugo-gomes-ba1378280" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conhecimento" class="conhecimento">
+            <h2 class="section-title">Conhecimentos</h2>
+
+            <div class="conhecimento-info">
+                <div class="grid">
+                    <div class="grid-card">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Desenvolvedor Junior</span>
+                        <h3>3 Anos</h3>
+                        <p>Focado em HTML, CSS e JavaScript, criando interfaces modernas.</p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-user-shield"></i>
+                        <span>Cibersegurança</span>
+                        <h3>Estudando</h3>
+                        <p>Foco em segurança da informação, redes e ambientes Linux.</p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-network-wired"></i>
+                        <span>Redes e Infra</span>
+                        <h3>2 Anos</h3>
+                        <p>Experiência em conectividade e infraestrutura de TI.</p>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-linux"></i>
+                        <span>Linux e Sistemas</span>
+                        <h3>Estudando</h3>
+                        <p>Uso avançado de terminal e administração de sistemas.</p>
+                    </div>
+                </div>
+
+                <div class="conhecimento-img-container">
+                    <div class="conhecimento-tech-icon">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h2 class="section-title">Projetos Recentes</h2>
+            <div class="projetos-grid">
+                <div class="projetos-card">
+                    <img src="imagem t1.png" alt="Projeto 1">
+                    <h3>Projeto X</h3>
+                    <p>Em breve no ar. Interface moderna com foco em performance.</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn">Demonstração</a>
+                        <a href="#" class="btn">Github Repo</a>
+                    </div>
+                </div>
+
+                <div class="projetos-card">
+                    <img src="imagem t2.png" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Sistema em desenvolvimento usando as melhores práticas de Front-end.</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn">Demonstração</a>
+                        <a href="#" class="btn">Github Repo</a>
+                    </div>
+                </div>
+
+                <div class="projetos-card">
+                    <img src="imagem t3.png" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Solução web completa focada em experiência do usuário.</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn">Demonstração</a>
+                        <a href="#" class="btn">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contatos" id="contatos">
+            <div class="input-box">
+                <h2 class="section-title">Fale Comigo</h2>
+                <form class="input-form">
+                    <div class="input-field">
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">© 2026 Hugo Gomes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
